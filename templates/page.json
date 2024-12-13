@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "custom_css": [
         ".section-template--18834961957122__main-padding div {display: flex; justify-content: center; align-items: center;}"
       ],
@@ -20,134 +19,25 @@
         "padding_bottom": 28
       }
     },
-    "about_us_custom_header_hVacf8": {
-      "type": "about-us-custom-header",
+    "custom_blog_image_content_section_fi87Hp": {
+      "type": "custom-blog-image-content-section",
       "settings": {
-        "video_settings": "shopify://files/videos/eea20132e7c1475b849a3823cf72bad7.mp4"
+        "image_settings": "shopify://shop_images/blog1.webp"
       }
     },
-    "rich_text_7yEMFA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_3EmnjY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Inspired by Nature - Guided by Ayurveda",
-            "heading_size": "h1"
-          }
-        },
-        "text_iyi7ch": {
-          "type": "text",
-          "settings": {
-            "text": "<p>AVNI was born from the desire to unite Mother Nature's finest ingredients,infused with Ayurvedic inspiration, into a skincare ritual that respects your body and our precious planet. Our approach is refreshingly uncomplicated, featuring a range of minimal formulations, tailored for all humans, celebrating uniqueness over age or gender!\"<br/><br/>Here at AVNI, we're all about keeping it real. Our belief is simple: effective skincare should be free from all the unnecessary stuff like fillers, synthetic fragrances and synthetic chemicals. We're proudly part of the skincare revolution that values quality and our planet. Join us on this journey to embrace clean, nature-inspired beauty!</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_3EmnjY",
-        "text_iyi7ch"
-      ],
+    "featured_blog_GWUgpR": {
+      "type": "featured-blog",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "my_story_about_us_section_VTjajx": {
-      "type": "my-story-about-us-section",
-      "settings": {
-        "image_settings": "shopify://shop_images/avani_image.jpg",
-        "text_settings": "My Story",
-        "caption_settings": "<p>At Avni Life, my mission is to empower women dealing with hormonal imbalances—just like I once did. My personal journey with PCOS brought challenges like hair loss and acne that deeply affected my confidence and spirit. I knew there had to be a better way to tackle these issues. Growing up in India, I was surrounded by the healing power of natural, chemical-free skincare ingredients. Ayurveda was a vital part of my daily routine, offering effective solutions. But when I moved to the US, I found it difficult to find the same clean, natural formulas I had relied on.</p><p>That’s when the idea for Avni Life struck me. If I was struggling to find these solutions, I knew there had to be other women facing similar challenges. I wanted to create a space where they could discover natural, eco-friendly alternatives to traditional skincare products. My goal is to flip the script on beauty and wellness, celebrating the stunning, inherent beauty that exists within all of us.</p><p>Avni Life isn’t just a brand; it’s a message of hope. I offer products rooted in nature and Ayurveda to transform your skincare journey and support you along the way. So, let’s embark on this inspiring journey together and celebrate your unique path to rediscovering the radiant, natural you.</p>"
-      }
-    },
-    "rich_text_jL4pV9": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_xGwFrp": {
-          "type": "heading",
-          "settings": {
-            "heading": "Rooted in Ayurveda",
-            "heading_size": "h1"
-          }
-        },
-        "text_PXwdeN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Drawing from centuries of holistic wisdom to offer a harmonious blend of natural ingredients that nourish and rejuvenate your skin<br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_xGwFrp",
-        "text_PXwdeN"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multirow_8FccY7": {
-      "type": "multirow",
-      "blocks": {
-        "row_kKJEVB": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/about-1.webp",
-            "caption": "",
-            "heading": "Pure Ingredients",
-            "text": "<p>We prides ourselves on our commitment to using only the purest and highest-quality ingredients in all our products, ensuring the best for our customers' skin and well-being.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_CnzcFT": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/about-2.webp",
-            "caption": "",
-            "heading": "Plastic Free",
-            "text": "<p>In a world where the cosmetic industry contributes 120 billion units of plastic packaging annually, with 70% ending up in landfills, we have chosen to make a difference by eliminating plastic from our products to reduce the environmental impact and promote a greener future<br/></p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_nUfAcr": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/about-3webp.webp",
-            "caption": "",
-            "heading": "Small Batch",
-            "text": "<p>We believe in crafting our products in small batches to maintain meticulous quality control, resulting in superior, handcrafted skincare that our customers can trust and love.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_kKJEVB",
-        "row_CnzcFT",
-        "row_nUfAcr"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
+        "heading": "",
         "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-right",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
+        "blog": "",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -155,10 +45,7 @@
   },
   "order": [
     "main",
-    "about_us_custom_header_hVacf8",
-    "rich_text_7yEMFA",
-    "my_story_about_us_section_VTjajx",
-    "rich_text_jL4pV9",
-    "multirow_8FccY7"
+    "custom_blog_image_content_section_fi87Hp",
+    "featured_blog_GWUgpR"
   ]
 }

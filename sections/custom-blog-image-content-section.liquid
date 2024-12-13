@@ -1,0 +1,81 @@
+<style>
+  .cbics-outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cbics-main-container {
+    width: 100%;
+    max-width: 1400px;
+  }
+
+  .cbics-image {
+    width: 100%;
+  }
+
+  .cbics-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .cbics-link {
+    color: #2A3419;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 0px;
+  }
+
+  .cbics-link:hover {
+    text-decoration: underline;
+  }
+
+  .cbis-date {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+
+  .cbis-description {
+    width: 100%;
+    max-width: 800px;
+    font-size: 18px;
+  }
+</style>
+<div class="cbics-outer-container">
+  <div class="cbics-main-container">
+    {{ section.settings.image_settings | image_url: width: 1000 | image_tag: class: "cbics-image" }}
+    <div class="cbics-content-container">
+      <a href="/blogs/avni-blog/kansa-gua-sha-a-beginners-guide" class="cbics-link">
+        Kansa Gua Sha: A Beginner's Guide
+      </a>
+      <h3 class="cbis-date">November
+        <span>20, 2023</span>
+      </h3>
+      <p class="cbis-description">Are you tired of the same old skincare routine? Looking for a way to add some quirkiness to your self-care regimen? Well, look no further! Introducing Kansa Gua Sha, the...
+      </p>
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "custom blog content",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image_settings",
+        "label": "upload an image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "custom-blog-image-with-content"
+      }
+    ]
+  }
+{% endschema %}
