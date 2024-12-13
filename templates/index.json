@@ -1,0 +1,341 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_overlay_opacity": 40,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "27da4510-b728-48a8-8fb6-41e5460b73ef": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20939869323571__27da4510-b728-48a8-8fb6-41e5460b73ef-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Face Mask For Every Skin",
+            "heading_size": "h0"
+          }
+        },
+        "template--20939869323571__27da4510-b728-48a8-8fb6-41e5460b73ef-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/products",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--20939869323571__27da4510-b728-48a8-8fb6-41e5460b73ef-heading-1",
+        "template--20939869323571__27da4510-b728-48a8-8fb6-41e5460b73ef-button-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/avni-image-1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 60,
+        "padding_bottom": 36,
+        "full_width": true,
+        "keep_padding": false,
+        "custom_class": "mask_for_all"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured Products",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "parallelogram",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "b010f1be-2ece-4015-b8f3-3ec4294beffe": {
+      "type": "multicolumn-image",
+      "blocks": {
+        "template--20939869323571__b010f1be-2ece-4015-b8f3-3ec4294beffe-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7974.webp",
+            "title": "Orange Peel + Holy Basil <br>Hydrating Face Mask",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://products/orange-peel-holy-basil-hydrating-face-mask"
+          }
+        },
+        "template--20939869323571__b010f1be-2ece-4015-b8f3-3ec4294beffe-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/feature-sandalwood-1.webp",
+            "title": "Sandalwood + Mung Beans<br> Exfoliating Face Cleanser",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://products/sandalwood-mung-beans-exfoliating-face-cleaner"
+          }
+        },
+        "template--20939869323571__b010f1be-2ece-4015-b8f3-3ec4294beffe-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7976.webp",
+            "title": "Saffron + Turmeric <br> Goddess Glow Face Mask",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://products/saffron-turmeric-goddess-glow-face-mask"
+          }
+        }
+      },
+      "block_order": [
+        "template--20939869323571__b010f1be-2ece-4015-b8f3-3ec4294beffe-column-1",
+        "template--20939869323571__b010f1be-2ece-4015-b8f3-3ec4294beffe-column-2",
+        "template--20939869323571__b010f1be-2ece-4015-b8f3-3ec4294beffe-column-3"
+      ],
+      "settings": {
+        "title": "Shop Our Favorite’s",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "EXPLORE ALL PRODUCTS",
+        "button_link": "shopify://collections/products",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "full_width": true,
+        "keep_padding": true,
+        "custom_class": "favorite_mask"
+      }
+    },
+    "a3a2bcdf-63c8-4e4a-8684-76e8fd2a1ed9": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20939869323571__a3a2bcdf-63c8-4e4a-8684-76e8fd2a1ed9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Made to be absorbed",
+            "heading_size": "h0"
+          }
+        },
+        "a02db12c-2879-4837-bd3c-82092d2716c7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ingredients derived from nature and for the benefit of your body.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--20939869323571__a3a2bcdf-63c8-4e4a-8684-76e8fd2a1ed9-heading-1",
+        "a02db12c-2879-4837-bd3c-82092d2716c7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/made-absorbed.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "scheme-805da5f0-ef13-42d8-886d-92b52ec8d2eb",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "full_width": true,
+        "keep_padding": true,
+        "custom_class": "made_absorbed"
+      }
+    },
+    "317bff23-1acf-4a4a-8295-e4071b85c1bb": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20939869323571__317bff23-1acf-4a4a-8295-e4071b85c1bb-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "Pure Ingredients",
+            "text": "<p>We prides ourselves on our commitment to using only the purest and highest-quality ingredients in all our products, ensuring the best for our customers' skin and well-being.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20939869323571__317bff23-1acf-4a4a-8295-e4071b85c1bb-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Small Batch",
+            "text": "<p>We believe in crafting our products in small batches to maintain meticulous quality control, resulting in superior, handcrafted skincare that our customers can trust and love.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20939869323571__317bff23-1acf-4a4a-8295-e4071b85c1bb-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Plastic Free",
+            "text": "<p>In a world where the cosmetic industry contributes 120 billion units of plastic packaging annually, with 70% ending up in landfills, we have chosen to make a difference by eliminating plastic from our products to reduce the environmental impact and promote a greener future</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20939869323571__317bff23-1acf-4a4a-8295-e4071b85c1bb-column-1",
+        "template--20939869323571__317bff23-1acf-4a4a-8295-e4071b85c1bb-column-2",
+        "template--20939869323571__317bff23-1acf-4a4a-8295-e4071b85c1bb-column-3"
+      ],
+      "settings": {
+        "title": "Forever & Always",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "full_width": true,
+        "keep_padding": true,
+        "custom_class": "forever_always"
+      }
+    },
+    "08ddf27c-40cb-4252-9a7b-cc23386cafed": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/image-banner.webp",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "bb6ce596-3ed4-48b0-a6b1-d272baa16dbd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20939869323571__bb6ce596-3ed4-48b0-a6b1-d272baa16dbd-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Follow Us",
+            "heading_size": "h1"
+          }
+        },
+        "template--20939869323571__bb6ce596-3ed4-48b0-a6b1-d272baa16dbd-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.instagram.com/avnilifeorganics\" target=\"_blank\" title=\"https://www.instagram.com/avnilifeorganics\"><strong>@avnilifeorganics</strong></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20939869323571__bb6ce596-3ed4-48b0-a6b1-d272baa16dbd-heading-1",
+        "template--20939869323571__bb6ce596-3ed4-48b0-a6b1-d272baa16dbd-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 52
+      }
+    },
+    "1698341797b622e934": {
+      "type": "apps",
+      "settings": {
+        "include_margins": false
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "27da4510-b728-48a8-8fb6-41e5460b73ef",
+    "featured_collection",
+    "b010f1be-2ece-4015-b8f3-3ec4294beffe",
+    "a3a2bcdf-63c8-4e4a-8684-76e8fd2a1ed9",
+    "317bff23-1acf-4a4a-8295-e4071b85c1bb",
+    "08ddf27c-40cb-4252-9a7b-cc23386cafed",
+    "bb6ce596-3ed4-48b0-a6b1-d272baa16dbd",
+    "1698341797b622e934"
+  ]
+}

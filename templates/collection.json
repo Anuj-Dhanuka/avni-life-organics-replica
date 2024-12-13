@@ -1,0 +1,394 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 2,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "69875792-3b39-4f40-acdc-60cd81b2297c": {
+      "type": "featured-product",
+      "blocks": {
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-price-1": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-text-1",
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-title-1",
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-price-1",
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-variant_picker-1",
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-quantity_selector-1",
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-buy_buttons-1",
+        "template--20939868799283__69875792-3b39-4f40-acdc-60cd81b2297c-share-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "ashawagandha-rice-superfood-face-mask",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "cee47c8f-9165-4f15-a227-dab6161ef96f": {
+      "type": "featured-product",
+      "blocks": {
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-price-1": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-text-1",
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-title-1",
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-price-1",
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-variant_picker-1",
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-quantity_selector-1",
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-buy_buttons-1",
+        "template--20939868799283__cee47c8f-9165-4f15-a227-dab6161ef96f-share-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "orange-peel-holy-basil-hydrating-face-mask",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "right",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "6ff7a1dd-26a7-418f-8cfe-56b92de84458": {
+      "type": "featured-product",
+      "blocks": {
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-price-1": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-text-1",
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-title-1",
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-price-1",
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-variant_picker-1",
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-quantity_selector-1",
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-buy_buttons-1",
+        "template--20939868799283__6ff7a1dd-26a7-418f-8cfe-56b92de84458-share-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "saffron-turmeric-goddess-glow-face-mask",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "f4db88cc-6b6c-4358-b9ab-09d61acea2e9": {
+      "type": "featured-product",
+      "blocks": {
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-price-1": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-text-1",
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-title-1",
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-price-1",
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-variant_picker-1",
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-quantity_selector-1",
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-buy_buttons-1",
+        "template--20939868799283__f4db88cc-6b6c-4358-b9ab-09d61acea2e9-share-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "sandalwood-mung-beans-exfoliating-face-cleaner",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "right",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    },
+    "6f6d6451-5769-4790-82f3-aa5b94a99370": {
+      "type": "featured-product",
+      "blocks": {
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-price-1": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-variant_picker-1": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-text-1",
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-title-1",
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-price-1",
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-variant_picker-1",
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-quantity_selector-1",
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-buy_buttons-1",
+        "template--20939868799283__6f6d6451-5769-4790-82f3-aa5b94a99370-share-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "turmeric-rose-anti-inflammatory-facial-cleasner",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "none",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 52,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "69875792-3b39-4f40-acdc-60cd81b2297c",
+    "cee47c8f-9165-4f15-a227-dab6161ef96f",
+    "6ff7a1dd-26a7-418f-8cfe-56b92de84458",
+    "f4db88cc-6b6c-4358-b9ab-09d61acea2e9",
+    "6f6d6451-5769-4790-82f3-aa5b94a99370"
+  ]
+}

@@ -1,0 +1,92 @@
+<style>
+  .cms-outer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  .cms-inner-container {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .cms-image-container {
+    width: 50%;
+  }
+
+  .cms-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .cms-content-outer-container {
+    width: 50%;
+    position: relative;
+  }
+
+  .cms-content-container {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    background-color: #E0DDD7;
+    padding: 50px;
+  }
+</style>
+
+<div class="cms-outer-container">
+  <div class="cms-inner-container">
+
+    <div class="cms-image-container">
+        {{ section.settings.image_settings |  image_url: width: 1500, height: 1500|  image_tag: class: "cms-image"  }}
+    </div>
+
+    <div class="cms-content-outer-container">
+    <div class="cms-content-container">
+      <h1>{{ section.settings.text_settings }}</h1>
+      <div>{{ section.settings.caption_settings }}</div>
+    </div>
+    </div>
+
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "custom my story section",
+    "settings": [
+
+    {
+        "type": "video",
+        "id": "video_settings",
+        "label": "upload a video"
+    },
+
+        {
+            "type": "image_picker",
+            "id": "image_settings",
+            "label": "upload a image"
+        },
+      {
+        "type": "text",
+        "id": "text_settings",
+        "label": "Heading"
+      }, {
+        "type": "richtext",
+        "id": "caption_settings",
+        "label": "enter description"
+
+      }
+    ],
+    "presets": [
+      {
+        "name": "custom-my-story-section"
+      }
+    ]
+  }
+
+{% endschema %}

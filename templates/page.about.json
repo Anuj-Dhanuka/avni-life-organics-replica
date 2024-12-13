@@ -1,0 +1,308 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "0a07a555-d25d-4505-8cd6-2dde85333baf": {
+      "type": "video-bakcground",
+      "settings": {
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/eea20132e7c1475b849a3823cf72bad7.mp4",
+        "mobile_video_url": "",
+        "mobile_video_height": 33,
+        "heading": "ABOUT US",
+        "video_heading_color": "#ffffff",
+        "heading_font_size": 48,
+        "heading_font_weight": 600,
+        "content_text": "",
+        "video_text_color": "#000000",
+        "text_font_size": 18,
+        "text_font_weight": 600,
+        "link_text": "",
+        "link_url": "",
+        "button_bg_color": "#ffffff",
+        "button_border_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_radius": 0,
+        "button_bg_color_hover": "#ffffff",
+        "button_border_color_hover": "#ffffff",
+        "button_text_color_hover": "#000000",
+        "blur": 0,
+        "opacity": 1
+      }
+    },
+    "ab75631b-6c17-4764-8f45-aa60fba2a05c": {
+      "type": "image-banner",
+      "blocks": {
+        "6c8828be-a4ce-48a7-a65b-2b3e55f7062e": {
+          "type": "heading",
+          "settings": {
+            "heading": "ABOUT US",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "6c8828be-a4ce-48a7-a65b-2b3e55f7062e"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/main-banner-demo.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "eb455d94-1c29-4459-9161-2aff21bcb575": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21368391532851__eb455d94-1c29-4459-9161-2aff21bcb575-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inspired by Nature - Guided by Ayurveda",
+            "heading_size": "h1"
+          }
+        },
+        "template--21368391532851__eb455d94-1c29-4459-9161-2aff21bcb575-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>AVNI was born from the desire  to unite Mother Nature's finest ingredients,infused with Ayurvedic inspiration,  into a skincare ritual that respects your body and our precious planet. Our approach is refreshingly uncomplicated, featuring a range of minimal formulations, tailored for all humans, celebrating uniqueness over age or gender!\"<br/><br/>Here at AVNI, we're all about keeping it real. Our belief is simple: effective skincare should be free from all the unnecessary stuff like fillers, synthetic fragrances and synthetic chemicals. We're proudly part of the skincare revolution that values quality and our planet. Join us on this journey to embrace clean, nature-inspired beauty! <br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21368391532851__eb455d94-1c29-4459-9161-2aff21bcb575-heading-1",
+        "template--21368391532851__eb455d94-1c29-4459-9161-2aff21bcb575-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_aYyKze": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_j7VbzF": {
+          "type": "heading",
+          "settings": {
+            "heading": "My Story",
+            "heading_size": "h1"
+          }
+        },
+        "text_d6cd3w": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Avni Life, my mission is to empower women dealing with hormonal imbalances—just like I once did. My personal journey with PCOS brought challenges like hair loss and acne that deeply affected my confidence and spirit. I knew there had to be a better way to tackle these issues. Growing up in India, I was surrounded by the healing power of natural, chemical-free skincare ingredients. Ayurveda was a vital part of my daily routine, offering effective solutions. But when I moved to the US, I found it difficult to find the same clean, natural formulas I had relied on.</p><p>That’s when the idea for Avni Life struck me. If I was struggling to find these solutions, I knew there had to be other women facing similar challenges. I wanted to create a space where they could discover natural, eco-friendly alternatives to traditional skincare products. My goal is to flip the script on beauty and wellness, celebrating the stunning, inherent beauty that exists within all of us.</p><p>Avni Life isn’t just a brand; it’s a message of hope. I offer products rooted in nature and Ayurveda to transform your skincare journey and support you along the way. So, let’s embark on this inspiring journey together and celebrate your unique path to rediscovering the radiant, natural you.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_j7VbzF",
+        "text_d6cd3w"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_4510.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "full_width": false,
+        "keep_padding": false,
+        "custom_class": ""
+      }
+    },
+    "5aa6919d-2146-4694-b933-66b1e9715e1f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21368391532851__5aa6919d-2146-4694-b933-66b1e9715e1f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rooted in Ayurveda",
+            "heading_size": "h1"
+          }
+        },
+        "template--21368391532851__5aa6919d-2146-4694-b933-66b1e9715e1f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Drawing from centuries of holistic wisdom to offer a harmonious blend of natural ingredients that nourish and rejuvenate your skin<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21368391532851__5aa6919d-2146-4694-b933-66b1e9715e1f-heading-1",
+        "template--21368391532851__5aa6919d-2146-4694-b933-66b1e9715e1f-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5aae7678-5dd7-48ef-a313-303dbfc75adc": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21368391532851__5aae7678-5dd7-48ef-a313-303dbfc75adc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pure Ingredients",
+            "heading_size": "h1"
+          }
+        },
+        "template--21368391532851__5aae7678-5dd7-48ef-a313-303dbfc75adc-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We prides ourselves on our commitment to using only the purest and highest-quality ingredients in all our products, ensuring the best for our customers' skin and well-being.<br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--21368391532851__5aae7678-5dd7-48ef-a313-303dbfc75adc-heading-1",
+        "template--21368391532851__5aae7678-5dd7-48ef-a313-303dbfc75adc-text-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/about-3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": false,
+        "keep_padding": false,
+        "custom_class": ""
+      }
+    },
+    "28ee5c86-9159-4fc2-afd5-738f7624e532": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21368391532851__28ee5c86-9159-4fc2-afd5-738f7624e532-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plastic Free",
+            "heading_size": "h1"
+          }
+        },
+        "template--21368391532851__28ee5c86-9159-4fc2-afd5-738f7624e532-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In a world where the cosmetic industry contributes 120 billion units of plastic packaging annually, with 70% ending up in landfills, we have chosen to make a difference by eliminating plastic from our products to reduce the environmental impact and promote a greener future<br/></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--21368391532851__28ee5c86-9159-4fc2-afd5-738f7624e532-heading-1",
+        "template--21368391532851__28ee5c86-9159-4fc2-afd5-738f7624e532-text-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/sandalwood-5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": false,
+        "keep_padding": false,
+        "custom_class": ""
+      }
+    },
+    "8fa453d1-0367-4774-9a78-658d2c9ad4c1": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--21368391532851__8fa453d1-0367-4774-9a78-658d2c9ad4c1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Small Batch",
+            "heading_size": "h1"
+          }
+        },
+        "template--21368391532851__8fa453d1-0367-4774-9a78-658d2c9ad4c1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We believe in crafting our products in small batches to maintain meticulous quality control, resulting in superior, handcrafted skincare that our customers can trust and love.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--21368391532851__8fa453d1-0367-4774-9a78-658d2c9ad4c1-heading-1",
+        "template--21368391532851__8fa453d1-0367-4774-9a78-658d2c9ad4c1-text-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/about-2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "full_width": false,
+        "keep_padding": false,
+        "custom_class": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "0a07a555-d25d-4505-8cd6-2dde85333baf",
+    "ab75631b-6c17-4764-8f45-aa60fba2a05c",
+    "eb455d94-1c29-4459-9161-2aff21bcb575",
+    "image_with_text_aYyKze",
+    "5aa6919d-2146-4694-b933-66b1e9715e1f",
+    "5aae7678-5dd7-48ef-a313-303dbfc75adc",
+    "28ee5c86-9159-4fc2-afd5-738f7624e532",
+    "8fa453d1-0367-4774-9a78-658d2c9ad4c1"
+  ]
+}
