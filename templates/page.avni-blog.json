@@ -21,31 +21,85 @@
     },
     "custom_blog_image_content_section_fi87Hp": {
       "type": "custom-blog-image-content-section",
-      "settings": {
-        "image_settings": "shopify://shop_images/blog1.webp"
-      }
-    },
-    "featured_blog_GWUgpR": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "blog": "unleash-your-goddess-glow-with-saffron-turmeric",
-        "post_limit": 2,
-        "columns_desktop": 2,
-        "color_scheme": "",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
+      "blocks": {
+        "blogs_6FHHzW": {
+          "type": "blogs",
+          "settings": {
+            "image_settings": "shopify://shop_images/blog1.webp",
+            "blog_link": "https://avni-life-organics.myshopify.com/blogs/news/unleash-your-goddess-glow-with-saffron-turmeric",
+            "blog_link_label": "Kansa Gua Sha: A Beginner's Guide",
+            "blog_month": "November",
+            "blog_date": "20, 2023",
+            "blog_description": "Are you tired of the same old skincare routine? Looking for a way to add some quirkiness to your self-care regimen? Well, look no further! Introducing Kansa Gua Sha, the...",
+            "image_settings1": "shopify://shop_images/IMG_5872.png",
+            "image_settings2": "shopify://shop_images/IMG_0086.webp",
+            "blog_link1": "https://avni-life-organics.myshopify.com/blogs/news/unleash-your-goddess-glow-with-saffron-turmeric",
+            "blog_link_label1": "Unleash Your Goddess Glow with Saffron & Turmeric",
+            "blog_month1": "November",
+            "blog_date1": "20, 2023",
+            "blog_description1": "What is the Saffron + Turmeric Goddess Glow Face Mask? When it comes to skincare, there are countless products on the market claiming to give you that coveted glow. But...",
+            "blog_link2": "https://avni-life-organics.myshopify.com/blogs/news/unleash-your-goddess-glow-with-saffron-turmeric",
+            "blog_link_label2": "Holy Basil to Peel Away Dry Skin!",
+            "blog_month2": "November",
+            "blog_date2": "20, 2023",
+            "blog_description2": "Are you tired of the same old skincare routine? Looking for a way to add some quirkiness to your self-care regimen? Well, look no further! Introducing Kansa Gua Sha, the..."
+          }
+        },
+        "blogs_3zLFXx": {
+          "type": "blogs",
+          "settings": {
+            "image_settings": "shopify://shop_images/IMG_9929.webp",
+            "blog_link": "https://avni-life-organics.myshopify.com/blogs/news/unleash-your-goddess-glow-with-saffron-turmeric",
+            "blog_link_label": "Unlock the Benefits of Turmeric Rose Cleanser",
+            "blog_month": "November",
+            "blog_date": "20, 2023",
+            "blog_description": "Are you tired of dealing with redness, irritation, and inflammation on your skin? Look no further than the incredible benefits of a Turmeric + Rose Anti-inflammatory Facial Cleanser. This powerful...",
+            "image_settings1": "shopify://shop_images/blog_small_2_1.webp",
+            "image_settings2": "shopify://shop_images/blog_small_2_2.webp",
+            "blog_link1": "https://avni-life-organics.myshopify.com/blogs/news/unleash-your-goddess-glow-with-saffron-turmeric",
+            "blog_link_label1": "Rice-Based Ashwagandha Face Masks: A Superfood Makeover",
+            "blog_month1": "November",
+            "blog_date1": "20, 2023",
+            "blog_description1": "When it comes to skincare, there are countless products and treatments available on the market. However, if you're looking for a natural and effective way to rejuvenate your skin, look...",
+            "blog_link2": "https://avni-life-organics.myshopify.com/blogs/news/unleash-your-goddess-glow-with-saffron-turmeric",
+            "blog_link_label2": "Ultimate Detoxifying Facial Massage Guide: Kansa Wand",
+            "blog_month2": "November",
+            "blog_date2": "18, 2023",
+            "blog_description2": "Facial massage has been practiced for centuries as a way to promote relaxation and improve the overall health and appearance of the skin. One tool that has gained popularity in..."
+          }
+        },
+        "blogs_W7DtAc": {
+          "type": "blogs",
+          "settings": {
+            "image_settings": "shopify://shop_images/blog_big_3.webp",
+            "blog_link": "https://avni-life-organics.myshopify.com/blogs/news/unleash-your-goddess-glow-with-saffron-turmeric",
+            "blog_link_label": "The Benefits of Mung Bean Exfoliation",
+            "blog_month": "November",
+            "blog_date": "18, 2023",
+            "blog_description": "Exfoliation is an essential step in any skincare routine. It helps remove dead skin cells, unclog pores, and reveal a fresh, radiant complexion. While there are many exfoliating products available...",
+            "blog_link1": "",
+            "blog_link_label1": "",
+            "blog_month1": "",
+            "blog_date1": "",
+            "blog_description1": "",
+            "blog_link2": "",
+            "blog_link_label2": "",
+            "blog_month2": "",
+            "blog_date2": "",
+            "blog_description2": ""
+          }
+        }
+      },
+      "block_order": [
+        "blogs_6FHHzW",
+        "blogs_3zLFXx",
+        "blogs_W7DtAc"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "main",
-    "custom_blog_image_content_section_fi87Hp",
-    "featured_blog_GWUgpR"
+    "custom_blog_image_content_section_fi87Hp"
   ]
 }

@@ -1,76 +1,246 @@
+{{ 'custom-blog-image-content-section.css' |  asset_url |  stylesheet_tag }}
+
 <style>
-  .cbics-outer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    .cbs-slickNextBtn {
+        position: absolute;
+        bottom: 50px;
+        right: 48.5%;
+        transform: translate(-50%, -50%); 
+        height: 16px;
+        width: 16px;
+    }
 
-  .cbics-main-container {
-    width: 100%;
-    max-width: 1400px;
-  }
-
-  .cbics-image {
-    width: 100%;
-  }
-
-  .cbics-content-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .cbics-link {
-    color: #2A3419;
-    font-size: 36px;
-    font-weight: 700;
-    text-decoration: none;
-    margin-bottom: 0px;
-  }
-
-  .cbics-link:hover {
-    text-decoration: underline;
-  }
-
-  .cbis-date {
-    margin-top: 0px;
-    font-size: 14px;
-  }
-
-  .cbis-description {
-    width: 100%;
-    max-width: 800px;
-    font-size: 18px;
-  }
+    .cbs-slickPrevBtn {
+        position: absolute;
+        bottom: 50px;
+        left: 48.5%;
+        transform: translate(-50%, -50%); 
+        height: 16px;
+        width: 16px;
+        z-index: 1000;
+        cursor: pointer;
+    }
 </style>
-<div class="cbics-outer-container">
-  <div class="cbics-main-container">
-    {{ section.settings.image_settings | image_url: width: 1000 | image_tag: class: "cbics-image" }}
-    <div class="cbics-content-container">
-      <a href="/blogs/avni-blog/kansa-gua-sha-a-beginners-guide" class="cbics-link">
-        Kansa Gua Sha: A Beginner's Guide
-      </a>
-      <h3 class="cbis-date">November
-        <span>20, 2023</span>
-      </h3>
-      <p class="cbis-description">Are you tired of the same old skincare routine? Looking for a way to add some quirkiness to your self-care regimen? Well, look no further! Introducing Kansa Gua Sha, the...
-      </p>
-    </div>
 
-  </div>
+
+<div class="casper">
+
+{% for block in section.blocks  %} 
+
+    {%  if block.type == "blogs" %} 
+      <div class="slide">
+        <div class="cbics-outer-container">
+            <div class="cbics-main-container">
+                {% if block.settings.image_settings %}
+                    {{ block.settings.image_settings | image_url: width: 1000 | image_tag: class: "cbics-image" }}
+                {% endif %}
+                <div class="cbics-content-container">
+                <a href="{{ block.settings.blog_link }}" class="cbics-link">
+                    {{ block.settings.blog_link_label }}
+                </a>
+                <h3 class="cbis-date">{{ block.settings.blog_month }}
+                    <span>{{ block.settings.blog_date }}</span>
+                </h3>
+                <p class="cbis-description">{{ block.settings.blog_description }}
+                </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="cbs-outer-container">
+            <div class="cbs-maincontainer">
+
+                <div class="cbs-left-container">
+                     {% if block.settings.image_settings1 != blank %}
+                        <div>
+                    {{ block.settings.image_settings1 | image_url: width: 1000 | image_tag: class: 'cbs-image' }}
+                </div>
+                    {% endif %}
+                
+                <div>
+                    <a href="{{ block.settings.blog_link }}" class="cbs-link">
+                    {{ block.settings.blog_link_label1 }}
+                    </a>
+                    <h3 class="cbs-date">{{ block.settings.blog_month1 }}
+                    <span>{{ block.settings.blog_date1 }}</span>
+                    </h3>
+                    <p class="cbs-description">{{ block.settings.blog_description1 }}</p>
+                </div>
+                </div>
+
+                <div class="cbs-right-container">
+                    {% if block.settings.image_settings2 != blank %}
+                        <div>
+                    {{ block.settings.image_settings2 | image_url: width: 1000 | image_tag: class: 'cbs-image' }}
+                </div>
+                    {% endif %}
+                
+                <div>
+                    <a href="{{ block.settings.blog_link }}" class="cbs-link">
+                    {{ block.settings.blog_link_label2 }}
+                    </a>
+                    <h3 class="cbs-date">{{ block.settings.blog_month2 }}
+                    <span>{{ block.settings.blog_date2 }}</span>
+                    </h3>
+                    <p class="cbs-description">{{ block.settings.blog_description2 }}</p>
+                </div>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    {% endif %} 
+
+{% endfor %} 
+
 </div>
+
+{% comment %} 
+<script>
+  let currentSlideSelected = document.getElementById("slide-number")
+    $(document).ready(function () {
+      $(".casper").slick({
+        slidesToShow: 1,
+        infinite: true,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        nextArrow:
+          '<img class="cbs-slickNextBtn" src="https://icon-library.com/images/next-arrow-icon/next-arrow-icon-13.jpg" />',
+        prevArrow:
+          '<img class="cbs-slickPrevBtn" src="https://webstockreview.net/images/arrow-icon-png-11.png" />',
+
+
+        // dots: false, Boolean
+        // arrows: false, Boolean
+      })
+      .on('afterChange', function(event, slick, currentSlide) {
+                // Update the current slide number dynamically
+                console.log("current slide", currentSlide)
+                currentSlideSelected.textContent = 'Current Slid: ' + (currentSlide + 1)
+            });
+    });
+  </script> {% endcomment %}
+
+
 
 {% schema %}
   {
     "name": "custom blog content",
     "settings": [
-      {
+      
+    ],
+    "blocks": [
+        
+        {
+            "name": "blogs",
+            "type": "blogs",
+            "settings": [
+                {
         "type": "image_picker",
         "id": "image_settings",
         "label": "upload an image"
+      },
+      {
+        "type": "text",
+        "id": "blog_link",
+        "label": "blog link",
+        "default": "/blogs/avni-blog/kansa-gua-sha-a-beginners-guide"
+      },
+      {
+        "type": "text",
+        "id": "blog_link_label",
+        "label": "link label",
+        "default": "Kansa Gua Sha: A Beginner's Guide"
+      },
+      {
+        "type": "text",
+        "id": "blog_month",
+        "label": "month",
+        "default": "November"
+      },
+      {
+        "type": "text",
+        "id": "blog_date",
+        "label": "blog date",
+        "default": "20, 2023"
+      },
+      {
+        "type": "text",
+        "id": "blog_description",
+        "label": "description",
+        "default": "Are you tired of the same old skincare routine? Looking for a way to add some quirkiness to your self-care regimen? Well, look no further! Introducing Kansa Gua Sha, the..."
+      },
+      
+      {
+        "type": "image_picker",
+        "id": "image_settings1",
+        "label": "image 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_settings2",
+        "label": "image 2"
+      },
+      {
+        "type": "text",
+        "id": "blog_link1",
+        "label": "left blog link",
+        "default": "/blogs/avni-blog/kansa-gua-sha-a-beginners-guide"
+      },
+      {
+        "type": "text",
+        "id": "blog_link_label1",
+        "label": "left link label",
+        "default": "Unleash Your Goddess Glow with Saffron & Turmeric"
+      }, {
+        "type": "text",
+        "id": "blog_month1",
+        "label": "left month",
+        "default": "November"
+      }, {
+        "type": "text",
+        "id": "blog_date1",
+        "label": "left blog date",
+        "default": "20, 2023"
+      }, {
+        "type": "text",
+        "id": "blog_description1",
+        "label": "left description",
+        "default": "What is the Saffron + Turmeric Goddess Glow Face Mask? When it comes to skincare, there are countless products on the market claiming to give you that coveted glow. But..."
+      },
+
+      {
+        "type": "text",
+        "id": "blog_link2",
+        "label": "right blog link",
+        "default": "/blogs/avni-blog/kansa-gua-sha-a-beginners-guide"
+      },
+      {
+        "type": "text",
+        "id": "blog_link_label2",
+        "label": "right link label",
+        "default": "Holy Basil to Peel Away Dry Skin!"
+      }, {
+        "type": "text",
+        "id": "blog_month2",
+        "label": "right month",
+        "default": "November"
+      }, {
+        "type": "text",
+        "id": "blog_date2",
+        "label": "right blog date",
+        "default": "20, 2023"
+      }, {
+        "type": "text",
+        "id": "blog_description2",
+        "label": "right description",
+        "default": "Are you tired of the same old skincare routine? Looking for a way to add some quirkiness to your self-care regimen? Well, look no further! Introducing Kansa Gua Sha, the..."
       }
+    ],
+        }
     ],
     "presets": [
       {
